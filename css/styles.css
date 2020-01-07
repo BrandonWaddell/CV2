@@ -1,0 +1,91 @@
+div {
+    background-color: skyblue;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 100px auto 100px auto;
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 15px;
+    height: 0px;
+    width: 7%;
+    
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    /* padding-bottom: 150px; */
+}
+
+.middle-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile-picture {
+    height: auto;
+    width: auto;
+}
+
+.game-controller {
+    height: 200px;
+    width: 300px;
+    margin: 50px auto 50px auto;
+}
+
+.laptop-art {
+    height: 312px;
+    width: 312px;
+    margin: 50px auto 50px auto;
+
+}
+
+.mountain {
+    height: 1000px;
+    width: 1000px;
+}
