@@ -1,24 +1,33 @@
-div {
-    background-color: skyblue;
+a {
+    color: #1d566e;
 }
 
+div {}
+
 body {
+    line-height: 1.4;
     margin: 0px;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
 }
 
 h1 {
-    margin-top: 0;
-    font-family: 'Sacramento', cursive;
+    color: #2c7873;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    color: #2c7873;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #1d566e;
+    font-family: "Montserrat", sans-serif;
 }
 
 hr {
@@ -28,40 +37,43 @@ hr {
     border-width: 15px;
     height: 0px;
     width: 7%;
-    
+}
+
+.a-programmer {
+    font-weight: normal;
 }
 
 .top-container {
     position: relative;
     padding-top: 100px;
-    /* padding-bottom: 150px; */
+    background-color: #28c3d4;
+
 }
 
 .middle-container {
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
+    background-color: #aee7e8;
 }
 
 .bottom-container {
     position: relative;
     padding-top: 100px;
     padding-bottom: 20px;
+    background-color: #248ea9;
 }
 
 .bottom-cloud {
     position: absolute;
     left: 300px;
     top: 300px;
-
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
-
 }
-
 
 .pro {
     text-decoration: underline;
@@ -73,19 +85,62 @@ hr {
 }
 
 .game-controller {
-    height: 200px;
+    /*   height: 200px;
     width: 300px;
-    margin: 50px auto 50px auto;
+    margin: 50px auto 50px auto;  */
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
 }
 
 .laptop-art {
-    height: 312px;
+    /*    height: 312px;
     width: 312px;
-    margin: 50px auto 50px auto;
-
+    margin: 50px auto 50px auto; */
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
 .mountain {
     height: 1000px;
     width: 1000px;
+}
+
+.skill-row {
+    width: 50%;
+    /*display: inline-block;*/
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.button {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin: 30px auto 50px auto;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
 }
