@@ -58,7 +58,7 @@ hr {
 
 .bottom-container {
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 20px;
     background-color: #248ea9;
 }
@@ -143,4 +143,13 @@ hr {
 .button:active {
     position: relative;
     top: 1px;
+}
+
+.footer-link {
+    margin: auto 30px auto 30px;
+    color: whitesmoke;
+}
+
+.copyright {
+    margin-top: 30px;
 }
