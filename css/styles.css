@@ -2,6 +2,10 @@ a {
     color: #1d566e;
 }
 
+a:hover {
+    color: whitesmoke
+}
+
 div {}
 
 body {
@@ -147,7 +151,7 @@ hr {
 
 .footer-link {
     margin: auto 30px auto 30px;
-    color: whitesmoke;
+    
 }
 
 .copyright {
